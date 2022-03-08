@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ses:DescribeActiveReceiptRuleSet",
+                "athena:GetWorkGroup",
+                "logs:DescribeLogGroups",
+                "logs:DescribeMetricFilters",
+                "elastictranscoder:ListPipelines",
+                "elasticfilesystem:DescribeFileSystems",
+                "servicequotas:ListServiceQuotas",
+                "sns:ListTopics",
+                "sagemaker:ListNotebookInstances",
+                "ses:ListIdentities",
+                "ssm:DescribeParameters",
+                "ssm:DescribeInstanceInformation",
+                "ssm:GetServiceSetting",
+                "lambda:ListFunctions",
+                "rds:DescribeDBClusters",
+                "cloudtrail:DescribeTrails",
+                "kms:ListKeys",
+                "secretsmanager:ListSecrets",
+                "xray:GetEncryptionConfig",
+                "codebuild:ListProjects",
+                "codepipeline:ListPipelines"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
